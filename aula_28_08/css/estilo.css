@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Handjet:wght@100..900&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image:url(../img/n.avif);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.menu{
+	width: 40vw;
+	height: 40vh;
+	margin-top: 10vh;
+	/*background-color:#1F3E6B;*/
+	margin-left: 30vw;
+	flex-direction: column;
+}
+section.menu a{
+	display: block;
+	border: 2px solid #5CAFEA;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 5%;
+	padding: 1%;
+	background-color:#1F3E6B;
+	color: white;
+	width: 80%;
+	margin-left: 10%;
+}
+section.menu a:hover{
+	background-color: #93B1EB;
+}
+section.video{
+	margin-left: 5vw;
+	margin-top: 15vh;
+	width: 90vw;
+	height: 60vh;
+	background-color: rgb(31,62,107,0.5);
+}
+#foto{
+	width: 40%;
+	margin-right: 5%;
+	height: 90%;
+}
+#foto img{
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 90%;
+	height: 90%;
+}
+#texto{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+#ovideo{
+	width: 40%;
+	height: 100%;
+}
+#texto h1{
+	text-align: center;
+	font-family: "Algerian";
+	color: white;
+	font-size: 18pt;
+	margin-top: 10%;
+}
+#texto p {
+	text-align: justify;
+	color: white;
+	margin-top: 5%;
+	font-size: 15pt;
+	font-family: "DM Sans", sans-serif;
+}
+#ovideo video{
+	width: 90%;
+	height: 90%;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+#texto a{
+	color: yellow;
+	font-family: "Monotype Corsive";
+	font-size: 16pt;
+}
+section.mapa{
+	margin-top: 15vh;
+	margin-left: 10vw;
+	width: 80vw;
+	height: auto;
+	flex-direction: column;
+	background-color: rgb(31,62,107,0.5);
+}
+#map{
+	width: 80%;
+	margin-left: 10%;
+	height: 450px;
+	margin-top: 5%;
+}
+section.mapa a{
+	color: yellow;
+	font-family: "Monotype Corsive";
+	font-size: 16pt;
+	text-align: center;
+}
+section.letra{
+	margin-left: 50vw;
+	font-size: 10pt;
+	width: 24vw;
+	height: auto;
+	flex-direction: column;
+	background-color: rgb(31,50,86,0.2);
+	color: white;
+}
+#le{
+	font-size: 12px;
+	color: white;
+	font-family: "DM Sans", sans-serif;
+}
+body.novo{
+	background-image:url(../img/l.jpg);
+	background-attachment: fixed;
+}
+#let h1{
+	text-align: center;
+	font-family: "Algerian";
+}
+#let{
+	text-align: center;
+
+
+}
+#let a{
+	color:#F56045;
+}
